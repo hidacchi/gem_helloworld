@@ -7,11 +7,11 @@ require "helloworld/version"
 Gem::Specification.new do |s|
   s.name        = "helloworld"
   s.version     = Helloworld::VERSION
-  s.authors     = ["足立 博章"]
-  s.email       = [""]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Helloworld."
-  s.description = "TODO: Description of Helloworld."
+  s.authors     = ["hiroaki adachi"]
+  s.email       = ["hidacchi@gmail.com"]
+  s.homepage    = "https://github.com/hidacchi/gem_helloworld"
+  s.summary     = "helloworld: Summary of Helloworld."
+  s.description = "helloworld: Description of Helloworld."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
