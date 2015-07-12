@@ -1,8 +1,7 @@
-require "helloworld/engine"
-require "active_support"
+require "hello_world/version"
 
-module Helloworld
-  def self.say_hello
+module HelloWorld
+  def self.exec
     puts "Hello World!"
   end
 end
